@@ -102,7 +102,7 @@ Table of Contents
        *  HEAD a folder or document: like GET, but omitting the response
           body
 
-    The exact details of these four actions are described in this
+    The exact details of these five actions are described in this
     specification.
 
 2. Terminology
