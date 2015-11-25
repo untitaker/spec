@@ -689,7 +689,7 @@ ntent-Type, Origin, X-Requested-With, If-Match, If-None-Match
         Origin: https://drinks-unhosted.5apps.com
         Authorization: Bearer j2YnGtXjzzzHNjkd1CJxoQubA1o=
         Content-Type: application/json; charset=UTF-8
-        Referer: https://drinks-unhosted.5apps.com/?
+        Referer: https://drinks-unhosted.5apps.com/
         If-Match: "1382694045000"
 
         {"name":"test", "updated":true, "@context":"http://remotestorag\
@@ -710,7 +710,7 @@ e.io/spec/modules/myfavoritedrinks/drink"}
         Host: 3pp.io:4439
         Origin: https://drinks-unhosted.5apps.com
         Authorization: Bearer j2YnGtXjzzzHNjkd1CJxoQubA1o=
-        Referer: https://drinks-unhosted.5apps.com/?
+        Referer: https://drinks-unhosted.5apps.com/
         If-None-Match: "1382694045000", "1382694048000"
 
     And the server may respond with a 304 Not Modified status:
@@ -762,7 +762,7 @@ charset=UTF-8","Content-Length":106}}}
         Origin: https://drinks-unhosted.5apps.com
         Authorization: Bearer j2YnGtXjzzzHNjkd1CJxoQubA1o=
         Content-Type: application/json; charset=UTF-8
-        Referer: https://drinks-unhosted.5apps.com/?
+        Referer: https://drinks-unhosted.5apps.com/
         If-Match: "1382694045000"
 
     And the server may respond with a 412 Conflict or a 200 OK status:
