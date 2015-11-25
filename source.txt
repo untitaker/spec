@@ -266,11 +266,11 @@ Table of Contents
        * the version of its parent folder being updated, as well as that
          of further ancestor folders if they are not deleted.
 
-    A successful OPTIONS request SHOULD be responded to as described in
-    the CORS section below.
-
     A successful HEAD request SHOULD be responded to like to the
     equivalent GET request, but omitting the response body.
+
+    A successful OPTIONS request SHOULD be responded to as described in
+    the CORS section below.
 
 5. Response codes
 
