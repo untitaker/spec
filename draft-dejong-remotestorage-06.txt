@@ -827,7 +827,7 @@ Internet-Draft              remoteStorage                  November 2015
         Content-Type: application/json; charset=UTF-8
         Content-Length: 106
         ETag: "1382694048000"
-        Expires: 0
+        Cache-Control: no-cache
 
         {"name":"test", "updated":true, "@context":"http://remotestora\
 ge.io/spec/modules/myfavoritedrinks/drink"}
@@ -841,7 +841,7 @@ ge.io/spec/modules/myfavoritedrinks/drink"}
         Content-Type: application/ld+json
         Content-Length: 171
         ETag: "1382694048000"
-        Expires: 0
+        Cache-Control: no-cache
 
         {"@context":"http://remotestorage.io/spec/folder-version","ite\
 ms":{"test":{"ETag":"1382694048000","Content-Type":"application/json; \
