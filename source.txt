@@ -850,7 +850,7 @@ charset=UTF-8","Content-Length":106}}}
     origin on which the remoteStorage server has its interface SHOULD
     therefore NOT be used for anything else, and the user SHOULD be
     warned not to visit any web pages on that origin. In particular, the
-    OAuth dialog and launch dashboard or token revokation interface
+    OAuth dialog and launch dashboard or token revocation interface
     SHOULD be on a different origin than the remoteStorage interface.
 
     Where the use of bearer tokens is impractical, a user may choose to
